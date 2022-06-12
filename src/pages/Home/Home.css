@@ -1,0 +1,90 @@
+.home-wrapper{
+	margin-top: 50px;
+}
+.this-day-wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+/* This Day */
+
+.this-day-block{
+	position: relative;
+	width: 400px;
+	
+	padding: 20px;
+	box-shadow: 2px 5px 25px -3px rgba(180,180,180,0.25);
+	display: flex;
+	justify-content: space-between;
+	border-radius: 15px;
+}
+.celsius{
+	font-size: 96px;
+	font-weight: 600;
+	color:#4793FF
+}
+.day{
+	font-size: 40px;
+}
+.time,.city{
+	font-size: 25px;
+	color:#939CB0;
+	margin-top: 5px;
+	width:100%;
+}
+.this-day-icon{
+	width: 125px;
+	height: 125px;
+	position: absolute;
+	top: 25px;
+	right: 25px;
+}
+.this-day-icon img{
+	max-width: 100%;
+}
+/* This day info */
+
+.this-day-info-block{
+	position: relative;
+	width: 64%;
+	padding: 20px;
+	box-shadow: 2px 5px 25px -3px rgba(180,180,180,0.25);
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 15px;
+}
+.cloud{
+	position: absolute;
+	top: 0;
+	right: 0;
+	max-width: 100%;
+	z-index: -1;
+}
+.item{
+	display: flex;
+	align-items: center;
+	padding: 5px;
+}
+.icon-block{
+	box-shadow: 2px 5px 25px -3px rgba(180,180,180,0.25);
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+.icon-block img{
+	max-width: 100%;
+}
+.item-title{
+	color:#939CB0;
+	font-size: 14px;
+	margin-right: 20px;
+	width: 80px;
+}
+.item-info{
+	font-size: 16px;
+}
